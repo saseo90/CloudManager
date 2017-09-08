@@ -25,15 +25,16 @@
 	</parent>
 
 	<properties>
+        <main.class>/cloud/manager/main/MainApplication.java</main.class>
+        
+        <podName>mypod</podName>
+        <masterUrl>http://192.168.0.98:8080/</masterUrl>
+        <namespace>default</namespace>
+    
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-        <main.class>/cloud/manager/main/MainApplication.java</main.class>
         
-	    <podName>mypod</podName>
-        <masterUrl>http://192.168.0.98:8080/</masterUrl>
-        <namespace>default</namespace>
-
         <log4j.version>1.2.17</log4j.version>
 
 	</properties>

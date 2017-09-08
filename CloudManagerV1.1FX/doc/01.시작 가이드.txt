@@ -1,0 +1,17 @@
+﻿# 01.main class
+# /cloud/manager/main/MainApplication.java
+#
+# 02.개발 및 운영환경
+# 이클립스(Luna), Spring, java8, javaFX, maven 등
+#
+# 03.라이브러리 
+# Spring-boot-starter 1.5.6.RELEASE, log4j 1.2.17, scala-library 2.11.0, hibernate-validator
+#
+# 04.프로젝트 실행
+# 프로젝트 import 후 메이븐 프로젝트업데이트 실행하여 라이브러를 포함한다.
+# 프로젝트 우클릭 > maven > Update Project
+# 프로젝트 우클릭 > run as > Maven clean (or) Maven install
+# 프로젝트 우클릭 > run as > java application > MainApplication.class 선택한다.
+#
+# 90.기타문의
+# saseo90@naver.com
