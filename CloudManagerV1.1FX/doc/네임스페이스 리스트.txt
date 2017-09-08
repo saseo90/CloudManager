@@ -1,0 +1,27 @@
+﻿NamespaceList(
+  apiVersion=v1
+, items=[
+  Namespace(apiVersion=v1, kind=Namespace
+          , metadata=ObjectMeta(annotations=null, creationTimestamp=2016-12-28T07:41:27Z, deletionGracePeriodSeconds=null, deletionTimestamp=null, finalizers=[], generateName=null, generation=null, labels=null, name=default, namespace=null, ownerReferences=[], resourceVersion=8, selfLink=/api/v1/namespaces/default, uid=0a40df15-ccd1-11e6-8ea3-0800277f8e9b, additionalProperties={})
+          , spec=NamespaceSpec(finalizers=[kubernetes], additionalProperties={})
+          , status=NamespaceStatus(phase=Active, additionalProperties={})
+          , additionalProperties={}
+)
+, Namespace(apiVersion=v1
+          , kind=Namespace
+          , metadata=ObjectMeta(annotations=null, creationTimestamp=2016-12-28T07:41:27Z, deletionGracePeriodSeconds=null, deletionTimestamp=null, finalizers=[], generateName=null, generation=null, labels=null, name=kube-system, namespace=null, ownerReferences=[], resourceVersion=11, selfLink=/api/v1/namespaces/kube-system, uid=0a4c8539-ccd1-11e6-8ea3-0800277f8e9b, additionalProperties={})
+          , spec=NamespaceSpec(finalizers=[kubernetes], additionalProperties={})
+          , status=NamespaceStatus(phase=Active, additionalProperties={})
+          , additionalProperties={}
+)
+, Namespace(apiVersion=v1
+          , kind=Namespace
+          , metadata=ObjectMeta(annotations=null, creationTimestamp=2016-12-28T07:58:10Z, deletionGracePeriodSeconds=null, deletionTimestamp=null, finalizers=[], generateName=null, generation=null, labels={this=rocks}, name=kube-system2, namespace=null, ownerReferences=[], resourceVersion=105, selfLink=/api/v1/namespaces/kube-system2, uid=60560bb2-ccd3-11e6-8fe8-0800277f8e9b, additionalProperties={})
+          , spec=NamespaceSpec(finalizers=[kubernetes], additionalProperties={})
+          , status=NamespaceStatus(phase=Active, additionalProperties={})
+          , additionalProperties={})
+        ]
+, kind=NamespaceList
+, metadata=ListMeta(resourceVersion=132, selfLink=/api/v1/namespaces, additionalProperties={})
+, additionalProperties={}
+)
