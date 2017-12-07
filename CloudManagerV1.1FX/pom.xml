@@ -75,6 +75,12 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
         </dependency>
+        <!-- javaFX -->
+<!--         <dependency>
+            <groupId>org.wildfly.swarm</groupId>
+            <artifactId>javafx</artifactId>
+            <version>2017.10.0</version>
+        </dependency> -->
 	</dependencies>
 
 	<build>
